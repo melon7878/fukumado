@@ -240,8 +240,10 @@
                             ]
                         ),
 
-                        i("div",{staticClass:"help-wrapper",class:{show:t.isVisibleHelp}},[i("div",{staticClass:"help-body"},
-                        [i("button",{staticClass:"dismiss",on:{click:function(e){t.isVisibleHelp=!1}}}),t._m(4)])]),t.current?i("nav",{staticClass:"controller-wapper"},[i("ul",{staticClass:"controller"},
+                        i("div",{staticClass:"help-wrapper",class:{show:t.isVisibleHelp}},
+                        [i("div",{staticClass:"help-body"},
+                        [i("button",{staticClass:"dismiss",on:{click:function(e){t.isVisibleHelp=!1}}}),t._m(4)])]),
+                        t.current?i("nav",{staticClass:"controller-wapper"},[i("ul",{staticClass:"controller"},
                         [i("li",{class:{"is-ignore":t.isMoveActive}},[i("button",{on:{click:function(e){return t.control("playVideo")}}},[i("img",{attrs:{src:s("6763"),alt:"Play"}})]),i("span",{staticClass:"tooltip"},[t._v("まとめて再生")])]),
                         i("li",{class:{"is-ignore":t.isMoveActive}},[i("button",{on:{click:function(e){return t.control("pauseVideo")}}},[i("img",{attrs:{src:s("ca25"),alt:"Pause"}})]),i("span",{staticClass:"tooltip"},[t._v("まとめて一時停止")])]),
                         i("li",{class:{"is-ignore":t.isMoveActive}},[i("button",{on:{click:function(e){return t.control("unMute")}}},[i("img",{attrs:{src:s("4555"),alt:"Unmute"}})]),i("span",{staticClass:"tooltip"},[t._v("まとめてミュート解除")])]),
@@ -255,7 +257,11 @@
                         i("li",[i("button",{on:{click:function(e){t.isVisibleHelp=!0}}},[i("img",{attrs:{src:s("0f84"),alt:"Help"}})]),i("span",{staticClass:"tooltip"},
                         [t._v("ヘルプ")])])])]):t._e(),
                         t.current&&t.isFirstView?i("aside",{ref:"firstView",staticClass:"first-view"},[t._m(6)]):t._e(),t.isMoveActive?i("aside",{staticClass:"move-float"},
-                        [i("button",{on:{click:t.toggleMove}},[t._v("配置の変更を終了")])]):t._e()])])},
+                        [i("button",{on:{click:t.toggleMove}},[t._v("配置の変更を終了")])]):t._e()
+                        ]
+                    )]
+                )
+            },
 
     n=[
         function(){/*お知らせ*/
@@ -325,8 +331,8 @@
 
         function(){var t=this,e=t.$createElement,i=t._self._c||e;
             return i("div",{staticClass:"first-view-body"},
-                [i("p",[t._v("再生・一時停止などのツールバーはページ下にあります")]),
-                i("img",{attrs:{src:s("d717"),alt:"scroll down"}})])
+                [i("p",[t._v("")]),
+                i("img",{attrs:{src:s(""),alt:""}})])
         }
     ],
 
@@ -424,7 +430,8 @@
     I=(s("5c0b"),Object(h["a"])(M,a,n,!1,null,null,null)),
     T=I.exports;
     i["a"].config.productionTip=!1,
-    new i["a"]({render:t=>t(T)}).$mount("#app")},
+    new i["a"]({render:t=>t(T)}).$mount("#app")
+    },
     "599b":function(t,e,s){t.exports=s.p+"img/icon_full.f747ea56.svg"},
     "5c0b":function(t,e,s){"use strict";var i=s("9c0c"),a=s.n(i);a.a},
     6763:function(t,e,s){t.exports=s.p+"img/icon_play.42866152.svg"},
