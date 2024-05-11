@@ -536,7 +536,7 @@
                     href: ""/*"https://twitter.com/amamamaou"*/,
                     target: "_blank"
                 }
-            }, [t._v(""/*"@amamamaou"*/)]), t._v(")")])
+            }, [t._v(""/*"@amamamaou"*/)]), t._v(""/*")"*/)])
         }
         , function() {
             var t = this
@@ -559,16 +559,16 @@
                 staticClass: "tooltip"
             }, [t._v(""/*"現在の設定を"*/), s(""/*"br"*/), t._v(""/*"Twitterでシェアする"*/)])
         }
-        , function() {
+        , function() {/*popuphint*/
             var t = this
               , e = t.$createElement
               , i = t._self._c || e;
             return i("div", {
                 staticClass: "first-view-body"
-            }, [i("p", [t._v("再生・一時停止などのツールバーはページ下にあります")]), i("img", {
+            }, [i("p", [t._v(""/*"再生・一時停止などのツールバーはページ下にあります"*/)]), i("img", {
                 attrs: {
-                    src: s("d717"),
-                    alt: "scroll down"
+                    src: s(""/*"d717"*/),
+                    alt: ""/*"scroll down"*/
                 }
             })])
         }
