@@ -555,8 +555,8 @@
             var t = this
               , e = t.$createElement
               , s = t._self._c || e;
-            return s("span", {
-                staticClass: "tooltip"
+            return s(""/*"span"*/, {
+                staticClass: ""/*"tooltip"*/
             }, [t._v(""/*"現在の設定を"*/), s(""/*"br"*/), t._v(""/*"Twitterでシェアする"*/)])
         }
         , function() {/*popuphint*/
@@ -564,7 +564,7 @@
               , e = t.$createElement
               , i = t._self._c || e;
             return i(""/*"div"*/, {
-                staticClass: "first-view-body"
+                staticClass: ""/*"first-view-body"*/
             }, [i(""/*"p"*/, [t._v(""/*"再生・一時停止などのツールバーはページ下にあります"*/)]), i(""/*"img"*/, {
                 attrs: {
                     src: s(""/*"d717"*/),
